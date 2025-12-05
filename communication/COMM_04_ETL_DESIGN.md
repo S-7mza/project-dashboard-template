@@ -20,7 +20,7 @@ This plan describes how to communicate around the **ETL / pipeline design** work
 - **BI Lead / Analytics Engineer**
 - **Platform / DevOps Engineer** (for orchestration and infra)
 - **Security / Compliance** (as needed)
-- **PM** (for planning and milestones)
+  
 
 ---
 
@@ -37,7 +37,7 @@ This plan describes how to communicate around the **ETL / pipeline design** work
 ## 4. Pre-Workshop Email – Save the Date (T–7 to T–5)
 
 **From:** Tech Manager  
-**To:** ETL/data engineers; BI lead; platform/DevOps; PM  
+**To:** ETL/data engineers; BI lead; platform/DevOps  
 **Subject:** `[Dashboard Project] ETL / Pipeline Design – hold the date`
 
 Hi all,
@@ -48,7 +48,7 @@ We are scheduling an **ETL / Pipeline Design workshop** for the **Dashboard Proj
 - Define the **pipelines, schedules, and orchestration** required to support the dashboard with the right SLAs and data quality.
 
 **Proposed slot:** Week X, Day Y – 90–120 minutes  
-**Participants:** ETL/data engineers, BI lead, platform/DevOps, PM, Tech Manager, Security (as needed)
+**Participants:** ETL/data engineers, BI lead, platform/DevOps, Tech Manager, Security (as needed)
 
 Please hold this time in your calendars. A detailed agenda and pre-work will follow.
 
@@ -69,7 +69,7 @@ Here are the details for the **ETL / Pipeline Design workshop**.
 
 **When:** Week X, Day Y – 90–120 minutes  
 **Where:** `<meeting room or virtual link>`  
-**Participants:** ETL/data engineers; BI lead; platform/DevOps; PM; Tech Manager; Security as needed
+**Participants:** ETL/data engineers; BI lead; platform/DevOps; Tech Manager; Security as needed
 
 **Draft agenda**
 1. Recap of data model and semantic layer (10–15 min)
@@ -119,7 +119,7 @@ Tech Manager
 ## 7. Post-Workshop Email – Recap & Actions (T+0 / T+1)
 
 **From:** Tech Manager  
-**To:** Participants; PM; relevant managers  
+**To:** Participants; relevant managers  
 **Subject:** `[Dashboard Project] ETL / Pipeline Design – recap & next steps`
 
 Hi all,

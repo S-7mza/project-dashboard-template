@@ -8,7 +8,7 @@ Required inputs
 - Short pre-survey sent to participants to surface priorities.
 
 Required attendees
-- PM, BI lead, representatives from data, ETL, ops and product.
+- BI lead, representatives from data, ETL, ops and product.
 
 Attachments to include in invite
 - Action log extract, bug/issue list, usage metrics report

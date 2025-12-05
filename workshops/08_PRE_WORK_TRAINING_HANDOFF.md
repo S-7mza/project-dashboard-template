@@ -8,7 +8,7 @@ Required inputs
 - List of user groups and their proficiency levels.
 
 Required attendees
-- Training lead, PM, product owner, representative end-users.
+- Training lead, product owner, representative end-users.
 
 Attachments to include in invite
 - `follow_up/FUP_TEMPLATE.md` and training materials

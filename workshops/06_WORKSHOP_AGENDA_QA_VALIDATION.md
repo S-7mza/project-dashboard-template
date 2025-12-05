@@ -1,7 +1,7 @@
 Performance & QA / Validation — Agenda (detailed)
 
 Duration: 60–90 minutes
-Attendees: QA Lead, BI Dev, Data Owner, PM
+Attendees: QA Lead, BI Dev, Data Owner
 
 1. Review acceptance criteria and UAT plan (15 min)
 2. Walk through validation queries and test cases (30 min)

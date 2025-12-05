@@ -1,7 +1,7 @@
 Technical Data Discovery — Agenda (detailed)
 
 Duration: 90–120 minutes (may be run per source)
-Attendees: Data owners, ETL engineers, BI developers, PM
+Attendees: Data owners, ETL engineers, BI developers
 
 1. Objective & scope (10 min)
 - Confirm goals, KPIs in scope, and what we must deliver from this session.

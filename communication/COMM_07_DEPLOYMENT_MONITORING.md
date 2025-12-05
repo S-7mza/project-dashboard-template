@@ -7,7 +7,7 @@
 - Confirm who is on point during and after deployment.
 
 ## 2. Stakeholder Groups
-- **Primary:** BI Lead, DevOps/Ops, PM, Security/Compliance, Product Owner.
+- **Primary:** BI Lead, DevOps/Ops, Security/Compliance, Product Owner.
 - **Secondary:** Support/Helpdesk, Business key users, Data Owners.
 
 ## 3. Timeline & Touchpoints
@@ -21,8 +21,8 @@
 
 ## 4. Pre-Workshop Email – Save the Date (T–5 to T–3)
 
-**From:** PM / BI Lead  
-**To:** DevOps/Ops; BI Lead; PM; Security; Product Owner; key users  
+**From:** BI Lead  
+**To:** DevOps/Ops; BI Lead; Security; Product Owner; key users  
 **Subject:** `[Dashboard Project] Deployment & Monitoring workshop – hold the date`
 
 Hi all,
@@ -30,17 +30,17 @@ Hi all,
 As we approach go-live for the **Dashboard Project**, we will hold a **Deployment & Monitoring workshop** to review the runbook, monitoring setup, and support model.
 
 **Proposed slot:** Week 6 – 60 minutes  
-**Participants:** DevOps/Ops; BI Lead; PM; Security; Product Owner; key users
+**Participants:** DevOps/Ops; BI Lead; Security; Product Owner; key users
 
 Please keep this time blocked in your calendars. A detailed agenda and material will follow.
 
 Best regards,  
-PM / BI Lead
+BI Lead
 
 
 ## 5. Pre-Workshop Email – Agenda & Pre-work (T–2)
 
-**From:** PM  
+**From:** BI Lead  
 **To:** Confirmed participants  
 **Subject:** `[Dashboard Project] Deployment & Monitoring – agenda & pre-work`
 
@@ -50,7 +50,7 @@ Thank you for holding time for the **Deployment & Monitoring workshop**. Below a
 
 **When:** Week 6 – 60 min  
 **Where:** &lt;meeting room or virtual link&gt;  
-**Participants:** DevOps/Ops; BI Lead; PM; Security; Product Owner; key users
+**Participants:** DevOps/Ops; BI Lead; Security; Product Owner; key users
 
 **Agenda (draft)**
 1. Overview of deployment scope and environments.  
@@ -67,12 +67,12 @@ Thank you for holding time for the **Deployment & Monitoring workshop**. Below a
 Please share any additional topics or constraints ahead of the workshop.
 
 Best regards,  
-PM
+BI Lead
 
 
 ## 6. Same-Day Reminder (T–0 morning)
 
-**From:** PM  
+**From:** BI Lead  
 **To:** Participants  
 **Subject:** `Reminder – Dashboard Deployment & Monitoring workshop today`
 
@@ -86,12 +86,12 @@ A quick reminder that our **Deployment & Monitoring workshop** is today:
 We will confirm the deployment steps, monitoring checks, and who is on point during and after go-live.
 
 See you there,  
-PM
+BI Lead
 
 
 ## 7. Post-Workshop Email – Runbook & Contacts (T+0 / T+1)
 
-**From:** PM / DevOps Lead  
+**From:** DevOps Lead  
 **To:** Participants; sponsor; support teams  
 **Subject:** `[Dashboard Project] Deployment & Monitoring – recap & next steps`
 
@@ -108,7 +108,7 @@ Thank you for your contributions during the **Deployment & Monitoring workshop**
 Please ensure your teams are aware of the deployment window and escalation paths.
 
 Best regards,  
-PM / DevOps Lead
+DevOps Lead
 
 
 ## 8. Early-Life Support Update (T+1 / T+2)

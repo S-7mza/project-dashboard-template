@@ -1,7 +1,7 @@
 Kickoff Workshop Agenda
 
 Duration: 60-90 minutes
-Attendees: Sponsor, PM, Product Owner, Technical leads, Data owners
+Attendees: Sponsor, Product Owner, Technical leads, Data owners
 
 1. Introductions (10 min)
 - Roles, expectations, and success definition.

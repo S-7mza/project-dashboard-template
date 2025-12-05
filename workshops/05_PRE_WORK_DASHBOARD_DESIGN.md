@@ -8,7 +8,7 @@ Required inputs
 - BI devs: mock dataset (aggregated) for prototyping and sample charts.
 
 Required attendees
-- Product owner, BI developers, designer, PM.
+- Product owner, BI developers, designer.
 
 Attachments to include in invite
 - `deliverables/KPI_SPEC.md` (draft)

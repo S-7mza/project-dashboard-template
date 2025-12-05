@@ -19,7 +19,7 @@ This plan ensures everyone understands how **business concepts** will be transla
 - **BI Lead / Analytics Engineer**
 - **Product Owner / Business SMEs**
 - **Data Modeler / Architect**
-- **PM** (for alignment with scope and milestones)
+  
 
 ---
 
@@ -36,7 +36,7 @@ This plan ensures everyone understands how **business concepts** will be transla
 ## 4. Pre-Workshop Email – Save the Date (T–7 to T–5)
 
 **From:** Tech Manager  
-**To:** BI lead; data modeler; Product Owner; business SMEs; PM  
+**To:** BI lead; data modeler; Product Owner; business SMEs  
 **Subject:** `[Dashboard Project] Data Modeling / Semantic Layer – hold the date`
 
 Hi all,
@@ -47,7 +47,7 @@ Following the **Technical Data Discovery** workshop, we will run a **Data Modeli
 - Define the **analytics model** (facts, dimensions, hierarchies, business rules) that will power the dashboards.
 
 **Proposed slot:** Week X, Day Y – 90–120 minutes  
-**Participants:** BI lead, data modeler/architect, Product Owner, key business SMEs, PM, Tech Manager
+**Participants:** BI lead, data modeler/architect, Product Owner, key business SMEs, Tech Manager
 
 Please keep this time blocked. A detailed agenda and pre-work will follow.
 
@@ -68,7 +68,7 @@ Here are the details for the **Data Modeling / Semantic Layer workshop**.
 
 **When:** Week X, Day Y – 90–120 minutes  
 **Where:** `<meeting room or virtual link>`  
-**Participants:** BI lead; data modeler/architect; Product Owner; SMEs; PM; Tech Manager
+**Participants:** BI lead; data modeler/architect; Product Owner; SMEs; Tech Manager
 
 **Draft agenda**
 1. Recap of business objectives and confirmed KPIs (10–15 min)

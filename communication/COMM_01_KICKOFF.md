@@ -6,7 +6,7 @@
 - Capture initial risks, assumptions, and dependencies.
 
 ## 2. Stakeholder Groups
-- **Primary:** Sponsor, Product Owner, PM, Tech leads.
+- **Primary:** Sponsor, Product Owner, Tech leads.
 - **Secondary:** Key business stakeholders, BI/IT management.
 
 ## 3. Timeline & Touchpoints
@@ -29,7 +29,7 @@ Hi all,
 We are launching the **Dashboard Project** and would like to hold a **Kickoff workshop** to align on objectives, scope, roles, and the high-level plan.
 
 **Proposed slot:** Week 0, Day 0 – 60–90 minutes
-**Participants:** Sponsor, PM, Product Owner, Tech leads
+**Participants:** Sponsor, Product Owner, Tech leads
 
 Please keep this time blocked in your calendars. A detailed agenda and pre-work will follow.
 
@@ -49,7 +49,7 @@ Thank you for holding time for the **Dashboard Project Kickoff**. Below are the 
 
 **When:** Week 0, Day 0 – 60–90 minutes  
 **Where:** <meeting room or virtual link>  
-**Participants:** Sponsor; PM; Product Owner; Tech leads
+**Participants:** Sponsor; Product Owner; Tech leads
 
 **Agenda (draft)**
 1. Welcome & introductions (5 min)

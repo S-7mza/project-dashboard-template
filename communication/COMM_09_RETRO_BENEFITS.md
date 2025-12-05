@@ -6,7 +6,7 @@
 - Decide on follow-up actions, enhancements, and how to sustain value.
 
 ## 2. Stakeholder Groups
-- **Primary:** Sponsor, Product Owner, PM, BI Lead, key business stakeholders.
+- **Primary:** Sponsor, Product Owner, BI Lead, key business stakeholders.
 - **Secondary:** Data Owners, Ops/Support, Finance / benefits owner.
 
 ## 3. Timeline & Touchpoints
@@ -20,8 +20,8 @@
 
 ## 4. Pre-Workshop Email – Invite & Context (T–7 to T–5)
 
-**From:** PM / Sponsor  
-**To:** Sponsor; Product Owner; PM; BI Lead; key stakeholders  
+**From:** Sponsor  
+**To:** Sponsor; Product Owner; BI Lead; key stakeholders  
 **Subject:** `[Dashboard Project] Retrospective & Benefits Review – invitation`
 
 Hi all,
@@ -34,17 +34,17 @@ The goals of this session are to:
 - Agree on follow-up actions and potential next iterations.
 
 **Proposed slot:** Week 8 – 45–60 minutes  
-**Participants:** Sponsor, Product Owner, PM, BI Lead, key stakeholders
+**Participants:** Sponsor, Product Owner, BI Lead, key stakeholders
 
 Please confirm your availability or propose an alternative.
 
 Best regards,  
-PM
+Sponsor
 
 
 ## 5. Pre-Workshop Email – Pre-reads & Focus Questions (T–2)
 
-**From:** PM  
+**From:** Sponsor  
 **To:** Confirmed participants  
 **Subject:** `[Dashboard Project] Retrospective & Benefits Review – prep & material`
 
@@ -63,12 +63,12 @@ To structure the discussion, consider:
 - What would you change for the next dashboard or release?
 
 Thank you,  
-PM
+Sponsor
 
 
 ## 6. Same-Day Reminder (T–0 morning)
 
-**From:** PM  
+**From:** Sponsor  
 **To:** Participants  
 **Subject:** `Reminder – Dashboard Retrospective & Benefits Review today`
 
@@ -82,12 +82,12 @@ A quick reminder that our **Retrospective & Benefits Review** is today:
 We will keep the session focused and outcome-oriented, with the aim of capturing a few concrete improvements and an agreed view of benefits.
 
 Best regards,  
-PM
+Sponsor
 
 
 ## 7. Post-Workshop Email – Summary & Next Steps (T+0 / T+1)
 
-**From:** PM / Sponsor  
+**From:** Sponsor  
 **To:** Participants; key stakeholders  
 **Subject:** `[Dashboard Project] Retrospective & Benefits – recap & actions`
 
@@ -110,7 +110,7 @@ Thank you for the constructive discussion during the **Retrospective & Benefits 
 Thank you again for your support throughout this project.
 
 Best regards,  
-PM / Sponsor
+Sponsor
 
 
 ## 8. Optional Follow-Up (T+30 / T+60)

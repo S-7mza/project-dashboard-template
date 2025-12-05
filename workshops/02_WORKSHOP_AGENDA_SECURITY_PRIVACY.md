@@ -1,7 +1,7 @@
 Security, Privacy & Compliance — Workshop Agenda
 
 Duration: 60 minutes
-Attendees: Security/Compliance, Data Owner, PM, BI Lead, Legal (if needed)
+Attendees: Security/Compliance, Data Owner, BI Lead, Legal (if needed)
 
 1. Data classification review (15 min)
 - Identify PII, confidential or restricted fields, and residency constraints.

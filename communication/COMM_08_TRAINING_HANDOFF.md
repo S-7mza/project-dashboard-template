@@ -7,7 +7,7 @@
 - Formalize handoff from project team to business-as-usual (BAU) support.
 
 ## 2. Stakeholder Groups
-- **Primary:** End-users, key users, Product Owner, PM, Training lead.
+- **Primary:** End-users, key users, Product Owner, Training lead.
 - **Secondary:** Support/Helpdesk, BI team, Sponsor.
 
 ## 3. Timeline & Touchpoints

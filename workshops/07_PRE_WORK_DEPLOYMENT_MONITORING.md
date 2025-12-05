@@ -8,7 +8,7 @@ Required inputs
 - Proposed monitoring metrics, alert thresholds and on-call contacts.
 
 Required attendees
-- DevOps/ops, BI lead, PM, security/compliance representative.
+- DevOps/ops, BI lead, security/compliance representative.
 
 Attachments to include in invite
 - `scripts/README.md` and draft runbook

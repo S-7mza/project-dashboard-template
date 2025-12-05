@@ -6,7 +6,7 @@ Required items
 - Confirm attendees and roles (update `docs/PROJECT_BRIEF.md`).
 - Provide 1-page project summary: objective, timeline, success criteria.
 - Sponsor to prepare desired outcomes and constraints.
-- PM to draft proposed milestones and initial `templates/RACI.md` entries.
+- BI Lead to draft proposed milestones and initial `templates/RACI.md` entries.
 - Share logistics: meeting link, expected duration, recording plan, and shared whiteboard.
 
 Attachments to include in invite

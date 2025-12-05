@@ -1,7 +1,7 @@
 Dashboard Design — Agenda (detailed)
 
 Duration: 90 minutes
-Attendees: Product Owner, Designer, BI Dev, PM
+Attendees: Product Owner, Designer, BI Dev
 
 1. Recap objectives & KPIs (10 min)
 

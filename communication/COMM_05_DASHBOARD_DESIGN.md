@@ -19,7 +19,7 @@ This plan focuses on communication around the **Dashboard Design (UX + BI)** wor
 - **UX / UI Designer**
 - **BI Developer / Dashboard Engineer**
 - **Product Owner / Business SMEs**
-- **PM**
+  
 - **Representative end-users** (if possible)
 
 ---
@@ -37,7 +37,7 @@ This plan focuses on communication around the **Dashboard Design (UX + BI)** wor
 ## 4. Pre-Workshop Email – Save the Date (T–7 to T–5)
 
 **From:** Tech Manager  
-**To:** UX/UI designer; BI developer; Product Owner; key business users; PM  
+**To:** UX/UI designer; BI developer; Product Owner; key business users  
 **Subject:** `[Dashboard Project] Dashboard Design (UX + BI) – hold the date`
 
 Hi all,
@@ -48,7 +48,7 @@ We are planning a **Dashboard Design (UX + BI)** workshop for the **Dashboard Pr
 - Align on **user journeys, layout, and visual standards** for the first version of the dashboard.
 
 **Proposed slot:** Week X, Day Y – 90–120 minutes  
-**Participants:** UX/UI designer, BI developer, Product Owner, selected business users, PM, Tech Manager
+**Participants:** UX/UI designer, BI developer, Product Owner, selected business users, Tech Manager
 
 Please keep this time reserved. A detailed agenda and pre-work will follow.
 
@@ -69,7 +69,7 @@ Here are the details for the **Dashboard Design (UX + BI)** workshop.
 
 **When:** Week X, Day Y – 90–120 minutes  
 **Where:** `<meeting room or virtual link>`  
-**Participants:** UX/UI designer; BI developer; Product Owner; selected users; PM; Tech Manager
+**Participants:** UX/UI designer; BI developer; Product Owner; selected users; Tech Manager
 
 **Draft agenda**
 1. Recap of target users and key use cases (10–15 min)

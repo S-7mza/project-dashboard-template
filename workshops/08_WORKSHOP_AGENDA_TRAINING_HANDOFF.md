@@ -1,7 +1,7 @@
 User Training & Handoff — Agenda (detailed)
 
 Duration: 60–90 minutes
-Attendees: Training lead, PM, Product Owner, representative end-users
+Attendees: Training lead, Product Owner, representative end-users
 
 1. Overview & objectives (10 min)
 2. Demo of final dashboard (30–40 min)

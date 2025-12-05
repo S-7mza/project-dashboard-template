@@ -8,7 +8,7 @@ Required inputs
 - Existing smoke tests or proposed automated validation ideas.
 
 Required attendees
-- QA lead, BI developer, data owner, PM.
+- QA lead, BI developer, data owner.
 
 Attachments to include in invite
 - QA checklist (template)

@@ -36,7 +36,7 @@ The detailed, editable session plan now lives in `templates/WORKSHOP_DETAILED_SE
 
 Recurring coordination meetings
 - Daily standup: 15 min (Week 0 → go-live). Purpose: unblock and coordinate technical work. Participants: core delivery team. Priority: High
-- Weekly steering / sponsor update: 30 min (every week). Purpose: milestone status, risks, decisions. Participants: Sponsor, PM, BI Lead. Priority: High
+- Weekly steering / sponsor update: 30 min (every week). Purpose: milestone status, risks, decisions. Participants: Sponsor, BI Lead. Priority: High
 - Prototype demo cadence: end of Week 4 and Week 5 (UAT demo). Purpose: gather feedback and sign-offs. Participants: Stakeholders. Priority: High
 
 Critical path & blockers (summary)
@@ -69,7 +69,7 @@ Below are the recommended PMI-style gating criteria to confirm before moving fro
 - After Kickoff (gate: Proceed to Data Discovery)
 	- Project Charter signed by Sponsor (`docs/PROJECT_CHARTER.md`).
 	- Stakeholder register completed and primary owners identified (`docs/STAKEHOLDER_ENGAGEMENT_PLAN.md`).
-	- Initial RACI assigned and PM/BI lead confirmed.
+	- Initial RACI assigned and BI lead confirmed.
 
 - After Security & Privacy (gate: Begin Data Discovery)
 	- Data classification completed; PII/sensitive fields identified (`docs/DATA_GOVERNANCE.md`).

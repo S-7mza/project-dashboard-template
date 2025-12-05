@@ -16,7 +16,7 @@ This plan ensures that everyone involved in data discovery knows **why** the ses
 ## 2. Stakeholder Groups
 
 - **Tech Manager** (overall lead and facilitator)
-- **PM / Product Owner** (business context and priorities)
+- **Product Owner** (business context and priorities)
 - **Data Owners / Domain SMEs**
 - **ETL / Data Engineers**
 - **BI Developers / Analytics Engineers**
@@ -37,7 +37,7 @@ This plan ensures that everyone involved in data discovery knows **why** the ses
 ## 4. Pre-Workshop Email – Save the Date (T–7 to T–5)
 
 **From:** Tech Manager  
-**To:** Data owners; ETL / data engineers; BI developers; PM / PO  
+**To:** Data owners; ETL / data engineers; BI developers; PO  
 **Subject:** `[Dashboard Project] Technical Data Discovery – hold the date`
 
 Hi all,
@@ -49,7 +49,7 @@ As part of the **Dashboard Project**, we are organizing a **Technical Data Disco
 - Understand **access constraints**, privacy/security requirements, and **data quality** considerations.
 
 **Proposed slot:** Week X, Day Y – 90–120 minutes  
-**Participants:** Data owners, ETL/data engineers, BI developers, PM/PO, Tech Manager
+**Participants:** Data owners, ETL/data engineers, BI developers, PO, Tech Manager
 
 Please keep this time blocked in your calendars. A detailed agenda and pre-work will follow.
 
@@ -70,7 +70,7 @@ Thank you for holding time for the **Technical Data Discovery workshop**. Below 
 
 **When:** Week X, Day Y – 90–120 minutes  
 **Where:** `<meeting room or virtual link>`  
-**Participants:** Data owners; ETL/data engineers; BI developers; PM/PO; Tech Manager
+**Participants:** Data owners; ETL/data engineers; BI developers; PO; Tech Manager
 
 **Draft agenda**
 1. Context & business objectives recap (10–15 min)
@@ -119,7 +119,7 @@ Tech Manager
 ## 7. Post-Workshop Email – Recap & Actions (T+0 / T+1)
 
 **From:** Tech Manager  
-**To:** Participants; key tech stakeholders; PM/PO (cc Sponsor as needed)  
+**To:** Participants; key tech stakeholders; PO (cc Sponsor as needed)  
 **Subject:** `[Dashboard Project] Technical Data Discovery – recap & next steps`
 
 Hi all,

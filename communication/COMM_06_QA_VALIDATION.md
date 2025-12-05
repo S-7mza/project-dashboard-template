@@ -21,7 +21,7 @@ This plan structures all communication around the **Performance & QA / Validatio
 - **Business key users / UAT representatives**
 - **BI / dashboard developers**
 - **Data engineers** (for defect analysis when needed)
-- **PM** (for planning and gate decisions)
+  
 
 ---
 
@@ -38,7 +38,7 @@ This plan structures all communication around the **Performance & QA / Validatio
 ## 4. Pre-Workshop Email – Save the Date (T–7 to T–5)
 
 **From:** Tech Manager  
-**To:** QA lead; Product Owner; key business testers; BI/dev team; PM  
+**To:** QA lead; Product Owner; key business testers; BI/dev team  
 **Subject:** `[Dashboard Project] Performance & QA / Validation – hold the date`
 
 Hi all,
@@ -49,7 +49,7 @@ We are planning a **Performance & QA / Validation workshop** for the **Dashboard
 - Confirm how we will **validate the dashboard** from a business, data, and performance standpoint and agree on go/no-go criteria.
 
 **Proposed slot:** Week X, Day Y – 90–120 minutes  
-**Participants:** QA lead, Product Owner, business key users, BI/dev team, PM, Tech Manager
+**Participants:** QA lead, Product Owner, business key users, BI/dev team, Tech Manager
 
 Please keep this time reserved. A detailed agenda and pre-work will follow.
 
@@ -70,7 +70,7 @@ Here are the details for the **Performance & QA / Validation** workshop.
 
 **When:** Week X, Day Y – 90–120 minutes  
 **Where:** `<meeting room or virtual link>`  
-**Participants:** QA lead; Product Owner; business key users; BI/dev team; PM; Tech Manager
+**Participants:** QA lead; Product Owner; business key users; BI/dev team; Tech Manager
 
 **Draft agenda**
 1. Recap of scope, KPIs, and target personas (10–15 min)
