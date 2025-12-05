@@ -1,3 +1,120 @@
 # Communication Plan – Workshop 9: Retrospective & Benefits Review
 
-(…objectives, stakeholders, timeline, and email templates for retrospective & benefits review…)
+## 1. Objectives
+- Close the loop on the dashboard project and capture lessons learned.
+- Review realized and expected benefits against the original business case.
+- Decide on follow-up actions, enhancements, and how to sustain value.
+
+## 2. Stakeholder Groups
+- **Primary:** Sponsor, Product Owner, PM, BI Lead, key business stakeholders.
+- **Secondary:** Data Owners, Ops/Support, Finance / benefits owner.
+
+## 3. Timeline & Touchpoints
+- **T–7 to T–5 days:** Invite + context (purpose of retro & benefits review).
+- **T–2 days:** Share pre-reads (KPIs, benefits tracker, key incidents/risks). 
+- **T–0 morning:** Reminder with focus questions.
+- **T+0 / T+1 days:** Summary of decisions, actions, and updated benefits view.
+- **T+30 / T+60 days:** Optional follow-up on sustained benefits.
+
+---
+
+## 4. Pre-Workshop Email – Invite & Context (T–7 to T–5)
+
+**From:** PM / Sponsor  
+**To:** Sponsor; Product Owner; PM; BI Lead; key stakeholders  
+**Subject:** `[Dashboard Project] Retrospective & Benefits Review – invitation`
+
+Hi all,
+
+We are planning a **Retrospective & Benefits Review workshop** to close the current phase of the **Dashboard Project**.
+
+The goals of this session are to:
+- Reflect on what went well and what can be improved (process & collaboration).  
+- Review benefits realized so far vs. expectations.  
+- Agree on follow-up actions and potential next iterations.
+
+**Proposed slot:** Week 8 – 45–60 minutes  
+**Participants:** Sponsor, Product Owner, PM, BI Lead, key stakeholders
+
+Please confirm your availability or propose an alternative.
+
+Best regards,  
+PM
+
+
+## 5. Pre-Workshop Email – Pre-reads & Focus Questions (T–2)
+
+**From:** PM  
+**To:** Confirmed participants  
+**Subject:** `[Dashboard Project] Retrospective & Benefits Review – prep & material`
+
+Hi all,
+
+Ahead of our **Retrospective & Benefits Review** (Week 8), please review the following:
+
+- Benefits tracker: `docs/BENEFITS_TRACKER.csv`  
+- Benefits narrative: `docs/BENEFITS_REALIZATION.md`  
+- Key incidents / issues logged during the project.
+
+To structure the discussion, consider:
+- What worked particularly well?  
+- What slowed us down or created frustration?  
+- Which benefits are clearly visible today? Which are lagging?  
+- What would you change for the next dashboard or release?
+
+Thank you,  
+PM
+
+
+## 6. Same-Day Reminder (T–0 morning)
+
+**From:** PM  
+**To:** Participants  
+**Subject:** `Reminder – Dashboard Retrospective & Benefits Review today`
+
+Hi all,
+
+A quick reminder that our **Retrospective & Benefits Review** is today:
+
+**Time:** &lt;time&gt;  
+**Where:** &lt;meeting room / link&gt;
+
+We will keep the session focused and outcome-oriented, with the aim of capturing a few concrete improvements and an agreed view of benefits.
+
+Best regards,  
+PM
+
+
+## 7. Post-Workshop Email – Summary & Next Steps (T+0 / T+1)
+
+**From:** PM / Sponsor  
+**To:** Participants; key stakeholders  
+**Subject:** `[Dashboard Project] Retrospective & Benefits – recap & actions`
+
+Hi all,
+
+Thank you for the constructive discussion during the **Retrospective & Benefits Review**.
+
+**1. Key positives**  
+- &lt;bulleted list&gt;
+
+**2. Improvement areas**  
+- &lt;bulleted list&gt;
+
+**3. Benefits status**  
+- Updated in `docs/BENEFITS_REALIZATION.md` and `docs/BENEFITS_TRACKER.csv`.
+
+**4. Actions & owners**  
+- Logged in `templates/ACTION_LOG.csv` and, where relevant, added to the product backlog.
+
+Thank you again for your support throughout this project.
+
+Best regards,  
+PM / Sponsor
+
+
+## 8. Optional Follow-Up (T+30 / T+60)
+
+Depending on the nature of the benefits, schedule a short follow-up touchpoint (email or brief meeting) to:
+- Check if benefits are sustained or improving.  
+- Decide whether additional enhancements or new dashboards are needed.
