@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Project Playbook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-logo" aria-label="Stellantis logo">
+        <img src="https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2021/january/17-01-2021/STELLANTIS-LOGO-thin-72-03.png" alt="Stellantis" />
+      </div>
+      <div class="brand-text">
+        <span class="brand-company">Stellantis</span>
+        <span class="brand-app">Dashboard Project Playbook</span>
+      </div>
+    </div>
+    <nav class="top-nav">
+      <button class="nav-link active" data-section="overview">Overview</button>
+      <button class="nav-link" data-section="timeline">Timeline & Workshops</button>
+      <button class="nav-link" data-section="governance">PMI & Governance</button>
+      <button class="nav-link" data-section="agile">Agile Delivery</button>
+      <button class="nav-link" data-section="artifacts">Artifacts Library</button>
+      <button class="nav-link" data-section="audit">Audit</button>
+    </nav>
+  </header>
+
+  <main class="app-main">
+    <aside class="sidebar">
+      <section class="sidebar-card">
+        <h2>Audience</h2>
+        <ul>
+          <li><strong>Managers:</strong> see status, decisions, and gates.</li>
+          <li><strong>Business owners:</strong> understand workshops and benefits.</li>
+          <li><strong>Engineers:</strong> jump into data, ETL, and QA.</li>
+        </ul>
+      </section>
+      <section class="sidebar-card">
+        <h2>How to use</h2>
+        <ol>
+          <li>
+            Start with <strong>Overview</strong> to align on context and share the
+            link with your core team and sponsor.
+          </li>
+          <li>
+            Use <strong>Timeline &amp; Workshops</strong> as your master calendar:
+            confirm dates, participants, and use the <em>Docs</em> links to open
+            pre-work, agendas, and comms plans for each session.
+          </li>
+          <li>
+            Before any gate or major decision, open <strong>PMI &amp; Governance</strong>
+            to check which artifacts, risks, and decisions must be updated.
+          </li>
+          <li>
+            During delivery, keep <strong>Agile Delivery</strong> as your sprint hub:
+            write stories, update backlog and trackers, and link work to KPIs.
+          </li>
+          <li>
+            Use <strong>Artifacts Library</strong> as the single source of truth for
+            templates, logs, and documentation referenced in meetings and emails.
+          </li>
+        </ol>
+      </section>
+    </aside>
+
+    <section class="content">
+      <section id="overview" class="content-section active">
+        <h1>Dashboard Project Playbook</h1>
+        <p class="lead">
+          This interface is your single source of truth to initiate, plan, build,
+          validate, deploy, and grow a dashboard project at Stellantis. Follow
+          each section in order to manage the project end-to-end.
+        </p>
+
+        <div class="grid grid-2">
+          <article class="card emphasis">
+            <h2>Project at a glance</h2>
+            <ul>
+              <li>Clear 8-week roadmap from idea to go-live.</li>
+              <li>Workshops with defined inputs, outputs, and owners.</li>
+              <li>PMI-aligned gates and decision points.</li>
+              <li>Agile execution with sprints, DoD, and ceremonies.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h2>Why this approach works</h2>
+            <ul>
+              <li>Brings together PMI structure and Agile delivery practices.</li>
+              <li>Connects each workshop to concrete deliverables and templates.</li>
+              <li>Maintains traceability from business goals to KPIs and tests.</li>
+              <li>Offers ready-to-use communication and gating checklists.</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card small">
+            <h3>For Managers</h3>
+            <p>See gates, decisions, and benefits without reading every file.</p>
+          </article>
+          <article class="card small">
+            <h3>For Business</h3>
+            <p>Understand workshops, data needs, and expected outcomes.</p>
+          </article>
+          <article class="card small">
+            <h3>For Engineers</h3>
+            <p>Jump straight to data inventory, modeling, ETL, and QA specs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="timeline" class="content-section">
+        <h1>Timeline & Workshops</h1>
+        <p class="lead">High-level schedule plus a detailed, filterable workshop plan.</p>
+ 
+        <div class="card">
+          <h2>Workshops Gantt view</h2>
+          <p class="hint">High-level view based on the same workshop planner.</p>
+          <div id="ganttContainer" class="gantt-container"></div>
+        </div>
+
+        <div class="card">
+          <h2>Workshop planner</h2>
+          <div class="toolbar">
+            <label>
+              Filter by priority:
+              <select id="filterPriority">
+                <option value="all">All</option>
+                <option value="CRITICAL">Critical</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+              </select>
+            </label>
+            <button id="refreshWorkshops" type="button">Reload data</button>
+          </div>
+          <div class="table-wrapper">
+            <table id="workshopTable">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Session</th>
+                  <th>When</th>
+                  <th>Duration</th>
+                  <th>Pre-work</th>
+                  <th>Participants</th>
+                  <th>Dependency</th>
+                  <th>Priority</th>
+                  <th>Docs</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <p class="hint">
+            Source: <code>templates/WORKSHOP_DETAILED_SESSION_PLAN.csv</code>
+          </p>
+        </div>
+      </section>
+
+      <section id="governance" class="content-section">
+        <h1>PMI & Governance</h1>
+        <p class="lead">Use this section to keep the project under control.</p>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h2>Core PMI artifacts</h2>
+            <ul>
+              <li>Project Charter (what, why, who, constraints).</li>
+              <li>Project Plan (scope, schedule, cost, quality, risk, comms).</li>
+              <li>Data Governance (classification, masking, access, retention).</li>
+              <li>UAT & Quality plans tied to KPIs.</li>
+            </ul>
+            <a href="#" class="link" data-doc="docs/PROJECT_CHARTER (C).md">Open Charter</a>
+            <a href="#" class="link" data-doc="docs/PROJECT_PLAN (C).md">Open Project Plan</a>
+            <a href="#" class="link" data-doc="docs/DATA_GOVERNANCE (C).md">Open Data Governance</a>
+            <a href="#" class="link" data-doc="docs/TEST_UAT_PLAN (C).md">Open Test & UAT Plan</a>
+          </article>
+
+          <article class="card emphasis">
+            <h2>Gates & decisions</h2>
+            <p>
+              Before moving between major phases (Discovery → Modeling → ETL →
+              Prototype → UAT → Deployment), run a gate review using the gating
+              checklist.
+            </p>
+            <ul>
+              <li>Ensure required artifacts exist and are up-to-date.</li>
+              <li>Capture Go / No-Go / Conditional decisions.</li>
+              <li>Log actions in the Action Log with owners and due dates.</li>
+            </ul>
+            <a href="#" class="link" data-doc="02_GATING_CHECKLIST (C).md">Open Gating Checklist</a>
+            <a href="#" class="link" data-doc="01_PMI_BEST_PRACTICES (C).md">Open PMI Best Practices</a>
+          </article>
+        </div>
+
+        <article class="card">
+          <h2>Communication & risk control</h2>
+          <p>
+            Use the communication plan and logs to make sure nothing is missed
+            and everyone stays aligned.
+          </p>
+          <ul>
+            <li>Weekly status reports to sponsor and key stakeholders.</li>
+            <li>Daily standups for the delivery team.</li>
+            <li>Standard templates for actions, decisions, risks, and issues.</li>
+          </ul>
+          <div class="chip-row">
+            <a href="#" class="chip" data-doc="docs/COMMUNICATION_PLAN.md">Communication Plan</a>
+            <a href="../templates/ACTION_LOG.csv" class="chip" target="_blank" rel="noopener">Action Log (CSV)</a>
+            <a href="#" class="chip" data-doc="templates/DECISION_LOG.md">Decision Log</a>
+            <a href="#" class="chip" data-doc="templates/RISK_REGISTER.md">Risk Register</a>
+            <a href="#" class="chip" data-doc="templates/ISSUE_LOG.md">Issue Log</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="agile" class="content-section">
+        <h1>Agile Delivery</h1>
+        <p class="lead">Run sprints while staying fully aligned with PMI governance.</p>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h2>User stories & backlog</h2>
+            <ul>
+              <li>Write stories focusing on user value and KPIs.</li>
+              <li>Link each story to KPIs and visuals.</li>
+              <li>Use acceptance criteria to ensure testability.</li>
+            </ul>
+            <div class="chip-row">
+              <a href="#" class="chip" data-doc="agile/USER_STORY_TEMPLATE.md">User Story Template</a>
+              <a href="#" class="chip" data-doc="templates/ACCEPTANCE_CRITERIA.md">Acceptance Criteria</a>
+              <a href="../agile/SPRINT_BACKLOG_TEMPLATE.csv" class="chip" target="_blank" rel="noopener">Sprint Backlog</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Definition of Done</h2>
+            <p>
+              Use the Definition of Done and cases to ensure consistent quality
+              across sprints and releases.
+            </p>
+            <div class="chip-row">
+              <a href="#" class="chip" data-doc="agile/DEFINITION_OF_DONE.md">Definition of Done</a>
+              <a href="#" class="chip" data-doc="agile/DOD_CASES.md">DoD Cases</a>
+            </div>
+          </article>
+        </div>
+
+        <article class="card">
+          <h2>Ceremonies & metrics</h2>
+          <div class="grid grid-3">
+            <div>
+              <h3>Ceremonies</h3>
+              <ul>
+                <li><a href="#" data-doc="agile/SPRINT_PLANNING.md">Sprint Planning</a></li>
+                <li><a href="#" data-doc="agile/DAILY_STANDUP.md">Daily Standup</a></li>
+                <li><a href="#" data-doc="agile/SPRINT_REVIEW.md">Sprint Review</a></li>
+                <li><a href="#" data-doc="agile/RETROSPECTIVE.md">Retrospective</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Metrics</h3>
+              <ul>
+                <li><a href="../agile/VELOCITY_TRACKER.csv" target="_blank" rel="noopener">Velocity Tracker (.csv)</a></li>
+                <li><a href="../agile/BURNDOWN_TEMPLATE.csv" target="_blank" rel="noopener">Burndown Template (.csv)</a></li>
+                <li><a href="../docs/BENEFITS_TRACKER.csv" target="_blank" rel="noopener">Benefits Tracker (.csv)</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Capacity & releases</h3>
+              <ul>
+                <li><a href="#" data-doc="agile/CAPACITY_PLANNING.md">Capacity Planning</a></li>
+                <li><a href="#" data-doc="agile/RELEASE_PLAN.md">Release Plan</a></li>
+                <li><a href="#" data-doc="agile/RELEASE_NOTES_TEMPLATE.md">Release Notes</a></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="artifacts" class="content-section">
+        <h1>Artifacts Library</h1>
+        <p class="lead">All key documents and templates in one place.</p>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h2>Initiation</h2>
+            <ul>
+              <li><a href="#" data-doc="docs/PROJECT_BRIEF.md">Project Brief</a></li>
+              <li><a href="#" data-doc="docs/PROJECT_CHARTER (C).md">Project Charter (C)</a></li>
+              <li><a href="#" data-doc="docs/PROJECT_PLAN (C).md">Project Plan (C)</a></li>
+              <li><a href="#" data-doc="docs/TEAM_CHARTER.md">Team Charter</a></li>
+              <li><a href="#" data-doc="docs/STAKEHOLDER_ENGAGEMENT_PLAN.md">Stakeholder Engagement Plan</a></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h2>Data & Design</h2>
+            <ul>
+              <li><a href="#" data-doc="deliverables/DATA_INVENTORY (C).md">Data Inventory (C)</a></li>
+              <li><a href="#" data-doc="docs/DATA_GOVERNANCE (C).md">Data Governance (C)</a></li>
+              <li><a href="#" data-doc="deliverables/KPI_SPEC (C).md">KPI Spec (C)</a></li>
+              <li><a href="#" data-doc="deliverables/VIS_SPEC (C).md">Visualization Spec (C)</a></li>
+              <li><a href="#" data-doc="deliverables/ARCHITECTURE.md">Architecture</a></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h2>Build, Test & Deploy</h2>
+            <ul>
+              <li><a href="#" data-doc="docs/QUALITY_MANAGEMENT_PLAN.md">Quality Management Plan</a></li>
+              <li><a href="#" data-doc="docs/TEST_UAT_PLAN (C).md">Test & UAT Plan (C)</a></li>
+              <li><a href="#" data-doc="docs/ENVIRONMENT_INVENTORY.md">Environment Inventory</a></li>
+              <li><a href="#" data-doc="docs/DEPLOYMENT_RUNBOOK.md">Deployment Runbook</a></li>
+              <li><a href="#" data-doc="agile/DEPLOYMENT_CHECKLIST.md">Deployment Checklist</a></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h2>Workshops</h2>
+            <ul>
+              <li><a href="#" data-doc="00_WORKSHOP_TIMEPLAN (C).md">Workshop Timeplan (C)</a></li>
+              <li><a href="#" data-doc="workshops/00_PRE_WORKCHECKLISTS.md">Pre-work Checklists</a></li>
+              <li><a href="#" data-doc="workshops/01_WORKSHOP_AGENDA_KICKOFF.md">Kickoff Agenda</a></li>
+              <li><a href="#" data-doc="workshops/02_WORKSHOP_AGENDA_DATA_DISCOVERY.md">Data Discovery Agenda</a></li>
+              <li><a href="#" data-doc="workshops/03_WORKSHOP_AGENDA_DATA_MODELING.md">Data Modeling Agenda</a></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h2>Follow-up & Benefits</h2>
+            <ul>
+              <li><a href="#" data-doc="follow_up/FUP_TEMPLATE.md">Follow-up Template</a></li>
+              <li><a href="#" data-doc="docs/BENEFITS_REALIZATION.md">Benefits Realization</a></li>
+              <li><a href="../docs/BENEFITS_TRACKER.csv" target="_blank" rel="noopener">Benefits Tracker (.csv)</a></li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h2>Operational Scripts</h2>
+            <ul>
+              <li><a href="#" data-doc="scripts/README.md">Scripts Overview</a></li>
+              <li><a href="#" data-doc="scripts/validate_data.ps1.md">Data Validation Script</a></li>
+              <li><a href="#" data-doc="scripts/deploy.ps1.md">Deployment Script</a></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="audit" class="content-section">
+        <h1>Process Audits</h1>
+        <p class="lead">Consolidated audit view of your dashboard project process against multiple references.</p>
+
+        <article class="card emphasis">
+          <h2>Summary by reference</h2>
+          <p class="hint">Scores and key improvement levers for each audit model.</p>
+          <div id="auditSummary"></div>
+        </article>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h2>PMI / PMBOK</h2>
+            <div id="auditPMI"></div>
+          </article>
+          <article class="card">
+            <h2>ISO 21500 / 21502</h2>
+            <div id="auditISO"></div>
+          </article>
+        </div>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h2>Agile / Scrum</h2>
+            <div id="auditAgile"></div>
+          </article>
+          <article class="card">
+            <h2>Maturity / CMMI-style</h2>
+            <div id="auditMaturity"></div>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <aside class="doc-viewer" aria-label="Document viewer">
+      <div class="doc-viewer-header">
+        <div>
+          <div class="doc-viewer-label">Document viewer</div>
+          <div class="doc-viewer-title" id="docTitle">Select a project document from the left to view it here.</div>
+        </div>
+        <button id="docClear" class="doc-clear" type="button">Clear</button>
+      </div>
+      <div id="docStatus" class="doc-status"></div>
+      <div id="docContent" class="doc-content"></div>
+    </aside>
+  </main>
+
+  <footer class="app-footer">
+    <span>Dashboard Project Playbook</span>
+    <span>Use this interface as the reference for all phases of the project.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

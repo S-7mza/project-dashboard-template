@@ -1,0 +1,22 @@
+User Training & Handoff — Pre-work Checklist
+
+Send 3 working days before the session.
+
+Required inputs
+- Final dashboards ready for demo and training.
+- Training slides or quick-start guides.
+- List of user groups and their proficiency levels.
+
+Required attendees
+- Training lead, PM, product owner, representative end-users.
+
+Attachments to include in invite
+- `follow_up/FUP_TEMPLATE.md` and training materials
+
+Goals for the session
+- Walk users through the dashboard and key interactions.
+- Handover runbook, support contacts and documentation.
+
+Post-meeting outputs
+- Training recordings and attendee list.
+- Completed `follow_up/FUP_TEMPLATE.md` with open items and owners.

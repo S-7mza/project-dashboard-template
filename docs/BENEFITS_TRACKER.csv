@@ -1,0 +1,2 @@
+benefit_id,description,metric,baseline,target,current_value,measurement_date,owner,notes
+B1,Time saved in reporting,hours_per_month,100,70,80,YYYY-MM-DD,PM,Initial improvement after go-live

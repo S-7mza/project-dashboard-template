@@ -1,0 +1,4 @@
+# Ignore local secrets and environment files
+secrets.*
+.env
+.DS_Store
