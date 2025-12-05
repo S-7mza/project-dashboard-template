@@ -204,7 +204,7 @@ async function loadWorkshopCsv() {
 
     // Try to load the CSV via HTTP first (works on GitHub Pages or any server)
     try {
-      const res = await fetch("/templates/WORKSHOP_DETAILED_SESSION_PLAN.csv");
+      const res = await fetch("templates/WORKSHOP_DETAILED_SESSION_PLAN.csv");
       if (!res.ok) {
         throw new Error(`HTTP ${res.status}`);
       }
